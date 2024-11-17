@@ -33,6 +33,9 @@
 .vscode/
 .vsconfig
 
+# Jetbrains Rider
+.idea/
+
 # Gradle cache directory
 .gradle/
 
@@ -62,6 +65,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+*.unitypackage.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -84,17 +88,15 @@ crashlytics-build.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 
+# Kuchinashi's Recommendation - Modify the followings with your need!
+
 # Large Assets
-/[Aa]ssets/[Qq]Framework/
-/[Aa]ssets/[Qq]Framework.meta
-/[Aa]ssets/[Qq]FrameworkData/
-/[Aa]ssets/[Qq]FrameworkData.meta
+# /[Aa]ssets/[Aa]rts/
+# /[Aa]ssets/[Aa]rts.meta
 /[Aa]ssets/[Ff]onts/
 /[Aa]ssets/[Ff]onts.meta
 /[Aa]ssets/[Uu]nityTechnologies/
 /[Aa]ssets/[Uu]nityTechnologies.meta
-/[Aa]ssets/.qframework/
-/[Aa]ssets/.qframework.meta
 
 # AssetBundles
 /[Aa]ssetBundles/
@@ -102,5 +104,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets.meta
 
 # Standard Assets
-/[Aa]ssets/[Ss]tandardAssets
-/[Aa]ssets/[Ss]tandardAssets.meta
+# /[Aa]ssets/[Ss]tandard Assets
+# /[Aa]ssets/[Ss]tandard Assets.meta
+
+# QFramework Examples
+/[Aa]ssets/QFramework/ToolKits/*/*.unitypackage*
+/[Aa]ssets/QFramework/ToolKits/*/*.unitypackage.meta*
